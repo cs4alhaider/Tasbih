@@ -7,20 +7,15 @@
 
 import SwiftUI
 import SwiftData
+import CounterKit
 
 @main
 struct TasbihApp: App {
     var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
+        let schema = Schema([Counter.self])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
+        do { return try ModelContainer(for: schema, configurations: [modelConfiguration]) }
+        catch { fatalError("Could not create ModelContainer: \(error)") }
     }()
 
     var body: some Scene {

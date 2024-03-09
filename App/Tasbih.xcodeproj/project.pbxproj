@@ -3,22 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CBA0F1162B9CEAA2007DCD3C /* TasbihApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0F1152B9CEAA2007DCD3C /* TasbihApp.swift */; };
 		CBA0F1182B9CEAA2007DCD3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0F1172B9CEAA2007DCD3C /* ContentView.swift */; };
-		CBA0F11A2B9CEAA2007DCD3C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0F1192B9CEAA2007DCD3C /* Item.swift */; };
 		CBA0F11C2B9CEAA4007DCD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA0F11B2B9CEAA4007DCD3C /* Assets.xcassets */; };
 		CBA0F11F2B9CEAA4007DCD3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA0F11E2B9CEAA4007DCD3C /* Preview Assets.xcassets */; };
+		CBA0F1292B9CED61007DCD3C /* CounterKit in Frameworks */ = {isa = PBXBuildFile; productRef = CBA0F1282B9CED61007DCD3C /* CounterKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBA0F1122B9CEAA2007DCD3C /* Tasbih.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasbih.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA0F1152B9CEAA2007DCD3C /* TasbihApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbihApp.swift; sourceTree = "<group>"; };
 		CBA0F1172B9CEAA2007DCD3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CBA0F1192B9CEAA2007DCD3C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CBA0F11B2B9CEAA4007DCD3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA0F11E2B9CEAA4007DCD3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CBA0F1202B9CEAA4007DCD3C /* Tasbih.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tasbih.entitlements; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA0F1292B9CED61007DCD3C /* CounterKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,7 +57,6 @@
 			children = (
 				CBA0F1152B9CEAA2007DCD3C /* TasbihApp.swift */,
 				CBA0F1172B9CEAA2007DCD3C /* ContentView.swift */,
-				CBA0F1192B9CEAA2007DCD3C /* Item.swift */,
 				CBA0F11B2B9CEAA4007DCD3C /* Assets.xcassets */,
 				CBA0F1202B9CEAA4007DCD3C /* Tasbih.entitlements */,
 				CBA0F1212B9CEAA4007DCD3C /* Info.plist */,
@@ -90,6 +89,9 @@
 			dependencies = (
 			);
 			name = Tasbih;
+			packageProductDependencies = (
+				CBA0F1282B9CED61007DCD3C /* CounterKit */,
+			);
 			productName = Tasbih;
 			productReference = CBA0F1122B9CEAA2007DCD3C /* Tasbih.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +120,9 @@
 				Base,
 			);
 			mainGroup = CBA0F1092B9CEAA2007DCD3C;
+			packageReferences = (
+				CBA0F1272B9CED61007DCD3C /* XCLocalSwiftPackageReference "../Packages/CounterKit" */,
+			);
 			productRefGroup = CBA0F1132B9CEAA2007DCD3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBA0F1182B9CEAA2007DCD3C /* ContentView.swift in Sources */,
-				CBA0F11A2B9CEAA2007DCD3C /* Item.swift in Sources */,
 				CBA0F1162B9CEAA2007DCD3C /* TasbihApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +360,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CBA0F1272B9CED61007DCD3C /* XCLocalSwiftPackageReference "../Packages/CounterKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Packages/CounterKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CBA0F1282B9CED61007DCD3C /* CounterKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CounterKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CBA0F10A2B9CEAA2007DCD3C /* Project object */;
 }

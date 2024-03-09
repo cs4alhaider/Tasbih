@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "helper4swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cs4alhaider/Helper4Swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "32d4ca52784c4490f706c94c81dedf43e88fbb1d"
+      }
+    }
+  ],
+  "version" : 2
+}
