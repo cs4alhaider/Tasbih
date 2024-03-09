@@ -2,6 +2,12 @@
 
 **Tasbih** is an intuitive, user-friendly mobile application designed to aid Muslims around the globe in their daily dhikr (remembrance of Allah). This app serves as a digital counterpart to the traditional tasbih beads, offering a portable and accessible way to track tasbih counts, remember daily prayers, and maintain spiritual mindfulness throughout the day.
 
+### See it in action
+Feel free to jin the beta testers via TestrFlight [public link]()
+| Tasbih app |
+| -------------------------- |
+| ![](Assets/vid.gif) |
+
 ## Features:
 - **Digital Tasbih Counter:** Simulates the traditional tasbih beads with a simple, easy-to-use interface for counting.
 - **Customizable Dhikr Presets:** Users can select from pre-loaded dhikr phrases or create custom ones to suit their personal spiritual practices.
