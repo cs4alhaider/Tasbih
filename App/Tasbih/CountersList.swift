@@ -27,7 +27,7 @@ struct CountersList: View {
                         Button {
                             showCreateCounter.toggle()
                         } label: {
-                            Label("Create New Counter", systemImage: "note.text.badge.plus")
+                            Label("Create New Tasbih", systemImage: "note.text.badge.plus")
                         }
                     }
                     .listRowSeparator(.hidden)
