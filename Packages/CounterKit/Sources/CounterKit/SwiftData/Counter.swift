@@ -21,6 +21,8 @@ final public class Counter: Identifiable {
     public var desc: String = ""
     /// Color of the counter, stored as a hexadecimal string.
     public var color: String = Color.accentColor.toHexString() ?? "#000000"
+    /// Indicates whether the counter is marked as a favorite.
+    public var isFavorite: Bool = false
     /// Creation date of the counter.
     public private(set) var createdAt: Date = Date()
     /// An optional array of CounterSession objects. The cascade delete rule implies that deleting a Counter will delete its sessions.
@@ -33,11 +35,20 @@ final public class Counter: Identifiable {
     ///   - color: The color of the counter, represented as a hexadecimal string.
     ///   - createdAt: The creation date of the counter. Defaults to the current date and time.
     ///   - sessions: An array of associated CounterSession objects. Defaults to an empty array.
-    public init(id: UUID = UUID(), name: String, desc: String = "", color: String, createdAt: Date = Date.now, sessions: [CounterSession]) {
+    public init(
+        id: UUID = UUID(),
+        name: String,
+        desc: String = "",
+        color: String,
+        isFavorite: Bool = false,
+        createdAt: Date = Date.now,
+        sessions: [CounterSession]
+    ) {
         self.id = id
         self.name = name
         self.desc = desc
         self.color = color
+        self.isFavorite = isFavorite
         self.createdAt = createdAt
         self.sessions = sessions
     }

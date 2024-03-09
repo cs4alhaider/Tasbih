@@ -12,7 +12,7 @@ import SwiftData
 @Model
 final public class CounterSession: Identifiable {
     /// Unique identifier for each counter session.
-    public private(set) var id: UUID = UUID()
+    public var id: UUID = UUID()
     /// Title of the counter session.
     public var title: String = ""
     /// Creation date of the session.
@@ -20,7 +20,7 @@ final public class CounterSession: Identifiable {
     /// An array of Dates representing 'hits' or interactions with the counter.
     public private(set) var hits: [Date] = []
     /// Target value for hits, nil if it's open target.
-    public var target: Int?
+    public var target: Int? = 100
 
     /// Inverse relationship to Counter. Links each session to its parent counter.
     @Relationship(inverse: \Counter.sessions) public private(set) var counter: Counter?
@@ -51,7 +51,7 @@ final public class CounterSession: Identifiable {
     ///   - createdAt: The creation date of the session. Defaults to the current date and time.
     ///   - hits: An array of dates representing interactions with the counter. Defaults to an empty array.
     ///   - target: The target number of hits for the session.
-    public init(id: UUID = UUID(), title: String = "", createdAt: Date = Date.now, hits: [Date] = [], target: Int? = nil) {
+    public init(id: UUID = UUID(), title: String = "", createdAt: Date = Date.now, hits: [Date] = [], target: Int? = 100) {
         self.id = id
         self.title = title
         self.createdAt = createdAt
