@@ -4,7 +4,7 @@
 
 ### See it in action
 
-Feel free to join me in the beta version via TestrFlight [not yet approved from Apple]().
+Feel free to join me in the beta version via TestrFlight [here](https://testflight.apple.com/join/bgsmEv9h).
 | Tasbih App |
 | -------------------------- |
 | ![](Assets/vid.gif) |
