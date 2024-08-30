@@ -8,24 +8,12 @@
             "state" : "translated",
             "value" : "%lld"
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld"
-          }
         }
       }
     },
     "Add another session.." : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "أضف جلسة أخرى..."
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "أضف جلسة أخرى..."
@@ -40,24 +28,12 @@
             "state" : "translated",
             "value" : "أضف جلسة جديدة..."
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "أضف جلسة جديدة..."
-          }
         }
       }
     },
     "Color" : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "اللون"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "اللون"
@@ -72,24 +48,12 @@
             "state" : "translated",
             "value" : "إنشاء"
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "إنشاء"
-          }
         }
       }
     },
     "Create New Tasbih" : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "إنشاء تسبيح جديد"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "إنشاء تسبيح جديد"
@@ -104,24 +68,12 @@
             "state" : "translated",
             "value" : "تم الإنشاء %@"
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "إنشاء %@"
-          }
         }
       }
     },
     "Edit" : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "تعديل"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "تعديل"
@@ -136,24 +88,12 @@
             "state" : "translated",
             "value" : "تعليم كمفضلة"
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "تعليم كمفضلة"
-          }
         }
       }
     },
     "Open Target" : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "افتح الهدف"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "افتح الهدف"
@@ -168,24 +108,12 @@
             "state" : "translated",
             "value" : "جلسة"
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "جلسة"
-          }
         }
       }
     },
     "Session count is %lld" : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "عدد الجلسة %lld"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "عدد الجلسة %lld"
@@ -200,24 +128,12 @@
             "state" : "translated",
             "value" : "الهدف  %lld"
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "الهدف  %lld"
-          }
         }
       }
     },
     "Tasbih" : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "تسبيح"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "تسبيح"
@@ -232,24 +148,12 @@
             "state" : "translated",
             "value" : "اسم التسبيح الكامل (اختياري).."
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "اسم التسبيح الكامل (اختياري).."
-          }
         }
       }
     },
     "Tasbih Info" : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "معلومات التسبيح"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "معلومات التسبيح"
@@ -264,12 +168,6 @@
             "state" : "translated",
             "value" : "الاسم المختصر للتسبيح"
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "الاسم المختصر للتسبيح"
-          }
         }
       }
     },
@@ -280,24 +178,12 @@
             "state" : "translated",
             "value" : "لا يوجد عداد حتى الآن, حاول إضافة عداد الآن"
           }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "لا يوجد عداد حتى الآن, حاول إضافة عداد الآن"
-          }
         }
       }
     },
     "Title (optional)" : {
       "localizations" : {
         "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "العنوان (اختياري)"
-          }
-        },
-        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "العنوان (اختياري)"
