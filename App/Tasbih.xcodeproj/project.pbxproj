@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8176EAA2C820F4D00325E5B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B8176EA92C820F4D00325E5B /* Localizable.xcstrings */; };
 		CBA0F1162B9CEAA2007DCD3C /* TasbihApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0F1152B9CEAA2007DCD3C /* TasbihApp.swift */; };
 		CBA0F1182B9CEAA2007DCD3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA0F1172B9CEAA2007DCD3C /* ContentView.swift */; };
 		CBA0F11C2B9CEAA4007DCD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA0F11B2B9CEAA4007DCD3C /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8176EA92C820F4D00325E5B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		CBA0F1122B9CEAA2007DCD3C /* Tasbih.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasbih.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA0F1152B9CEAA2007DCD3C /* TasbihApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbihApp.swift; sourceTree = "<group>"; };
 		CBA0F1172B9CEAA2007DCD3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				CBA0F1202B9CEAA4007DCD3C /* Tasbih.entitlements */,
 				CBA0F1212B9CEAA4007DCD3C /* Info.plist */,
 				CBA0F11D2B9CEAA4007DCD3C /* Preview Content */,
+				B8176EA92C820F4D00325E5B /* Localizable.xcstrings */,
 			);
 			path = Tasbih;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = CBA0F1092B9CEAA2007DCD3C;
 			packageReferences = (
@@ -183,6 +187,7 @@
 			files = (
 				CBA0F11F2B9CEAA4007DCD3C /* Preview Assets.xcassets in Resources */,
 				CBA0F11C2B9CEAA4007DCD3C /* Assets.xcassets in Resources */,
+				B8176EAA2C820F4D00325E5B /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
